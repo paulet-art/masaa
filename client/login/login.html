@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="login.css" rel="stylesheet">
+    <link href="signup.scss" rel="stylesheet">
+    <title>login/signup</title>
+</head>
+<body class="">
+    <section class="main-body">
+          <div class="main-body-div main-div-login ">
+          <div class="signup-div-btn">
+            <div>
+                <p>already have an account?</p><a id="login">login</a>
+            </div>
+          </div>
+          <div class="signup-form-div">
+              <form>
+                <div>
+                    <h2>signup</h2>
+                </div>
+                <div>
+                    <label for="first">FirstName:</label>
+                    <input type="text" name="first">
+                </div>
+                <div>
+                   <label for="second">SecondName:</label>
+                   <input type="text" name="second">
+               </div>
+               <div>
+                   <label for="email">Email:</label>
+                   <input type="email" name="email">
+               </div>
+               <div>
+                   <label for="phone">Phone:</label>
+                   <input type="text" name="phone">
+               </div>
+               <div>
+                   <label for="password">Password:</label>
+                   <input type="password" name="password">
+               </div>
+               <div>
+                   <label for="confirm">Confirm:</label>
+                   <input type="password" name="confirm">
+               </div>
+               <div class="signup-div-load">
+                <div class="signup-load">loading...</div>
+                <input  id="submit-signup" type="submit" name="submit" value="signup">
+               </div>
+             </form>
+          </div>
+              
+          </div>
+          <div class="main-body-div main-div-signup ">
+              
+              
+        <div class="login-form-div">
+           <form>
+               <div>
+                   <h2>Login</h2>
+               </div>
+               <div>
+                   <label>Email: </label>
+                   <input type="text" name="email">
+               </div>
+               <div>
+                <label>Password: </label>
+                <input type="password" name="email">
+            </div>
+            <div class="login-div-load">
+                <div class="login-load">loading...</div>
+                <input  id="submit" type="submit" name="submit" value="login">
+            </div>
+           </form>
+        </div>
+           <div class="login-div-btn">
+               <div class="less-height">
+                   <p>
+                       Don't have an account? 
+                   </p>
+               </div>
+                <div>
+                    <button id="signup">signup</button>
+                  </div>
+              </div>
+            
+             
+        </div>
+    </section>
+    <script src="login.js"></script>
+</body>
+</html>
