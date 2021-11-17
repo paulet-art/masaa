@@ -359,6 +359,7 @@ main {
           transform: translateY(100%);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .main-body .body-main > section > div {
@@ -1041,12 +1042,15 @@ main {
   }
   .main-body .body-main .main-stats .stats-body .stats-body-body .stats-body-info .stats-body-info-2 {
     width: 100%;
+    border: 1px solid red;
   }
   .main-body .body-main .main-stats .stats-body .stats-body-body .stats-body-info .stats-body-info-2 > div {
     width: 50%;
+    border: 1px solid red;
   }
   .main-body .body-main .main-stats .stats-body .stats-body-body .stats-body-info .stats-body-info-2 > div > div {
     width: 100%;
+    border: 1px solid red;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1062,4 +1066,4 @@ main {
     margin-left: 150px;
   }
 }
-/*# sourceMappingURL=account.css.map */
+/*# sourceMappingURL=add.css.map */

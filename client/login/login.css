@@ -1,10 +1,10 @@
 * {
-  --main-background:#9DD1F1;
-  --main-color:#031927;
-  --temp-color:#db5528;
-  --sec-color:#508AA8;
-  --tertiary-color:#C8E0F4;
-  --white-wash:#fff;
+  --main-background: #9dd1f1;
+  --main-color: #031927;
+  --temp-color: #db5528;
+  --sec-color: #508aa8;
+  --tertiary-color: #c8e0f4;
+  --white-wash: #fff;
   outline: none;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -15,14 +15,8 @@
 @font-face {
   font-family: footlight;
   src: url("../assets/font/footlight-mt-light.ttf");
-}
-
-@font-face {
   font-family: AbrilFatface;
   src: url("../assets/font/AbrilFatface-Regular.ttf");
-}
-
-@font-face {
   font-family: astra;
   src: url("../assets/font/astra.woff");
 }
@@ -53,8 +47,8 @@ body {
   width: 500px;
   height: 90%;
   background: rgba(255, 255, 255, 0.041);
-  -webkit-transition: all .6s ease-in-out;
-  transition: all .6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
   position: relative;
   overflow: hidden;
   font-family: astra;
@@ -65,8 +59,8 @@ body {
 .main-body-div {
   width: 500px;
   height: 100%;
-  -webkit-transition: all .6s ease-in-out;
-  transition: all .6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
   position: absolute;
 }
 
@@ -113,7 +107,7 @@ body {
 }
 
 .main-div-signup .login-div-btn > div > button {
-  padding: .2em;
+  padding: 0.2em;
   background: var(--main-color);
   color: var(--tertiary-color);
   border: 1px solid transparent;
@@ -189,8 +183,8 @@ body {
 }
 
 .main-div-signup .login-form-div > form > div input {
-  width: calc(250px - .6em);
-  padding: .4em;
+  width: calc(250px - 0.6em);
+  padding: 0.4em;
   border: 1px solid transparent;
 }
 
@@ -205,7 +199,7 @@ body {
 .main-div-signup .login-form-div > form > div input[type="submit"] {
   width: 254px;
   margin-top: 1em;
-  padding: .2em;
+  padding: 0.2em;
   font-family: astra;
   font-size: 1.3rem;
   font-weight: 520;
@@ -223,7 +217,7 @@ body {
 
 .main-div-signup .login-form-div > form > div .login-load {
   width: 254px;
-  padding: .3em;
+  padding: 0.3em;
   text-align: center;
   font-size: 1.2rem;
   z-index: 2;
@@ -330,7 +324,7 @@ body {
 .main-div-login .signup-form-div > form > div > input {
   border: none;
   width: 200px;
-  padding: .3em;
+  padding: 0.3em;
 }
 
 .main-div-login .signup-form-div > form > div > label {
@@ -340,7 +334,7 @@ body {
 .main-div-login .signup-form-div > form > div input[type="submit"] {
   width: 208px;
   margin-top: 1em;
-  padding: .2em;
+  padding: 0.2em;
   font-size: 1.2rem;
   font-family: astra;
 }
@@ -362,7 +356,7 @@ body {
 
 .main-div-login .signup-form-div > form > div .signup-load {
   width: 230px;
-  padding: .3em;
+  padding: 0.3em;
   text-align: center;
   font-size: 1.2rem;
   z-index: 2;
@@ -405,7 +399,7 @@ body {
     font-size: 2rem;
   }
   .main-div-signup .login-form-div > form > div input {
-    width: calc(245px - .6em);
+    width: calc(245px - 0.6em);
   }
   .main-div-signup .login-form-div > form > div input[type="submit"] {
     width: 250px;

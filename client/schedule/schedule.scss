@@ -722,10 +722,13 @@ main {
             flex-direction: column;
             .stats-body-info-2 {
               width: 100%;
+              border: 1px solid red;
               > div {
                 width: 50%;
+                border: 1px solid red;
                 > div {
                   width: 100%;
+                  border: 1px solid red;
                   display: flex;
                   align-items: center;
                   justify-content: flex-start;
